@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane McKeene</title>
+    <style>
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(121, 56, 56);
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        h4 {
+            color: white;
+            padding: 10px;
+        }
+
+        h1 {
+            color: rgb(22, 22, 22);
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        h2 {
+            color: rgb(22, 22, 22);
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        h3:hover {
+            animation-name: example;
+            animation-duration: 3s;
+        }
+
+        @keyframes example {
+            0%   {font-size: 1.17em;}
+            25%  {font-size: 1.72em;}
+            50%  {font-size: 2em;}
+            100% {font-size: 2.39em;}
+        }           
+
+        @font-face {
+            font-family: myFirstFont;
+            src: url(glimmer\ of\ light.otf);
+        }
+
+        html {
+            font-family: myFirstFont;
+            scroll-behavior: smooth;
+            background-color: burlywood;
+        }
+
+        .welcome-section {
+            background-image: url(battle.png);
+        }
+
+        #about {
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+        }
+
+        #skills {
+            background-color: rgb(206, 108, 83);
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#about"><h4>About</h4></a>
+        <a href="#skills"><h4>Skills</h4></a>
+        <a href=""><h4>Contacts</h4></a>
+    </div>
+    <div class="welcome-section">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="size: 7em;">Shamblers Are Tough</h1>
+        <h2>...but I am tougher</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div id="about">
+        <div>
+            <br>
+            <h1 style="font-size: 3em; color: rgb(109, 12, 12);">Welcome!</h1>
+            <h2 style="color: rgb(109, 12, 12);">My name is Jane McKeene. I am a woman well trained in the art of defense at Mrs Prestons School o. <br>I have had extensive training and I am more than prepared for your next shambler attck.</h2>
+        </div>
+    </div>
+    <div id="skills">
+        <div>
+            <h1 style="font-size: 2.6em; color: rgb(109, 12, 12);">Skills</h1>
+            <div class="list">
+                <h3 style="color: rgb(65, 16, 16);">Sickle</h3>
+                <h3 style="color: rgb(65, 16, 16);">Gun</h3>
+                <h3 style="color: rgb(65, 16, 16);">Sword</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
